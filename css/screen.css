@@ -204,6 +204,51 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+@media only screen and (min-width: 600px) {
+	h1 {
+		font-family: 'Merriweather', sans-serif;
+		text-align: center;
+		color: #505050;
+		font-size: 1.667em;
+		line-height:1.182em;
+	}
+	body {
+		font-family: 'Montserrat', serif;
+		background-color: #E8E8E8;
+		text-align: center;
+		color: #909090;
+		font-size: 1.375em;
+	}
+	p {
+		line-height: 1.182em; /* 26px / ~ 120% */
+		padding: 1.182em; /* 26px / ~ 120% */
+		font-family: 'Oswald', sans-serif;
+		color: #585858;	
+		font-size: 1.375em;
+	}
+	#input-email {
+		margin:auto;
+		font-size: 1.375em;
+		line-height: 1.182em;
+		padding: 1.182em;
+	}
+	#input-age-verification {
+		margin:auto;
+		font-size: 1.375em;
+		line-height: 1.182em;
+	}
+	#age-verification {
+		width: 1em;
+		height: .75em;
+	}
+	#input-submit {
+		width: 150px;
+		height: 55px;
+		padding: 1.182em;
+		margin: auto;
+	}
+}
+
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
